@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 warn("[TEMPEST HUB] Loading Ui")
 wait()
-local repo = "https://raw.githubusercontent.com/TrungH2/aa/refs/heads/main/Kaitunaa_CrackTempestHub.lua"
+local repo = "https://raw.githubusercontent.com/TrungH2/aa/refs/heads/main/maclib_Tempesthub_Ui.lua"
 
 --Loading UI Library
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
@@ -69,7 +69,7 @@ function aeuat()
 				queue_on_teleport([[         
                     repeat task.wait() until game:IsLoaded()
                     if getgenv().executed then return end    
-					loadstring(game:HttpGet("https://raw.githubusercontent.com/TrilhaX/kaitunAA/main/main.lua"))()
+					loadstring(game:HttpGet("https://raw.githubusercontent.com/TrungH2/aa/refs/heads/main/kaitunAA.lua"))()
                 ]])
 
 				getgenv().executed = true
